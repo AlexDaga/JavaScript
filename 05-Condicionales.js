@@ -12,7 +12,6 @@ if(edad==18){
     console.log("Primer voto")
 }else if(edad>18){
     console.log("Voto regular");
-}
-else{
+}else{
     console.log("No puede votar")
 }
