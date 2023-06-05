@@ -1,12 +1,12 @@
 function Sumar() {
-
-    var x,y,suma,text;
     
-    x=document.getElementsByClassName("num1").value;
-    y=document.getElementsByClassName("num2").value;
+    var num1=parseInt(document.querySelector('#num1').value);
+    var num2=parseInt(document.querySelector('#num2').value);
 
-    suma=parseInt(x)+parseInt(y);
-    text=suma;
+    console.log(num1+num2);
+    var resultado =num1+num2;
+    
+    document.getElementById("res").innerHTML="La suma es: "+resultado;
 
     Sumando.textContent=`El resultado es` 
 }
